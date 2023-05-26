@@ -1,0 +1,25 @@
+{
+  "name": "parse-number",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/parse-number.js",
+  "module": "dist/parse-number.js",
+  "types": "dist/parse-number.d.ts",
+  "exports": {
+    ".": "./dist"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "jest"
+  },
+  "keywords": ["digit", "number", "parse", "javascript", "typescript"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  }
+}
